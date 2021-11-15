@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  Google Sans,Segoe UI,system-ui,-apple-system,sans-serif;
+}
+
+.learn__nav{
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 110px;
+
+}
+
+.learn__logo h2{
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: clamp(1.25rem, 1.11rem + 0.71vw, 1.75rem);
+}
+
+.btn{
+    padding: .25rem .8rem;
+    background-color: white;
+    border: solid 1px #D2D3D7;
+    font-size: clamp(0.75rem, 0.71rem + 0.18vw, 0.875rem);
+    margin-left: 28px;
+    cursor: pointer;
+}
+
+.btn__pill{
+    border-radius: 15px;
+}
+
+.hover--blue:hover{
+    background:#3740FF;
+    color:white;
+    border: solid 1px #3740FF;
+}
+/* learn collections */
+.learn__collection{
+    border-top: 1px solid #D2D3D7;
+}
+.learn__collection .wrapper{
+    margin: 30px 110px;
+}
+
+.learn__collection .wrapper> h3{
+    font-weight: 450;
+    line-height: 1.2;
+    font-size: 1.3rem;
+}
+
+.learn__collection .form{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.card{
+    border: 1px solid #D2D3D7;
+    border-radius: 10px;
+    width: 30.5%;
+    margin-top: 60px;
+    cursor: pointer;
+    padding: 20px;
+    color: #585B63;
+    position: relative;
+}
+.card:hover{
+
+    transition: transform 200ms linear,box-shadow 200ms linear, ease;
+    box-shadow: rgba(55,64,255, 0.16) 0px 1px 4px, rgb(55,64,255) 0px 0px 0px 2px;
+    transition: 0.25s ease;
+    background:#F8F9FA;
+}
+
+.card__header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.card__header> h3{
+    line-height: 1.2;
+    font-weight: 400;
+}
+.card__header span{
+    color: #3740FF;
+}
+.card__header span i{
+    margin-left: 5px;
+}
+
+.card__img{
+    margin :35px 0;
+}
+.card__img img{
+    object-fit: cover;
+    height: 16rem;
+    margin-inline: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.card__title h3{
+    font-weight: 450;
+    line-height: 1.2;
+    font-size: 1.3rem;
+    color:black;
+}
+
+
