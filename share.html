@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./icon/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="header" class="topnav">
+        <div class="logo">
+            <div class="menu-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
+            <ul class="sub-menu">
+                <li><a href="">Learn</a></li>
+                <li><a href="">Measure</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Case studies</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+            <img src="https://cdn.worldvectorlogo.com/logos/webdev-wordmark.svg?fbclid=IwAR1Ec5qYPj-hIXGCbHxCmU_9fnt0jkqz--yPd93Lj3RFvdBXNCSmlepAOXk">
+        </div>
+        
+        <ul id="nav">
+            <li><a href="">Learn</a></li>
+            <li><a href="">Measure</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Case studies</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+
+        <div class="search-btn">
+            <i class="search-icon ti-search"></i>
+        </div>
+    </div>
+    
+    <div id="text-banner">
+        <p>
+            We want to hear from you! We are looking for web developers to participate in user research, product testing, discussion groups and more.
+            <a href=""> Apply now</a>
+            to join our WebDev Insights Community.
+        </p>
+    </div>
+
+    <div id="content">
+
+    </div>
+
+    <hr>
+    
+    <div id="footer">
+        <div id="contribute">
+            <p>Contribute</p>
+            <ul>
+                <li><a href="">File a bug</a></li>
+                <li><a href="">View source</a></li>
+            </ul>
+        </div>
+        <div id="related content">
+            <p>Related content</p>
+            <ul>
+                <li><a href="">Chrome updates</a></li>
+                <li><a href="">Web fundamentals</a></li>
+                <li><a href="">Case studies</a></li>
+                <li><a href="">Podcasts</a></li>
+                <li><a href="">Shows</a></li>
+            </ul>
+        </div>
+        <div id="connect">
+            <p>Connect</p>
+            <ul>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Youtube</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        menuBtn.onclick = function() {
+            const submenu = document.querySelector('.sub-menu');
+            if (submenu.style.display === "none") {
+                submenu.style.display = "block";
+            } else {
+                submenu.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
