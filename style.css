@@ -1,0 +1,127 @@
+/* Reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Google Sans', 'Segoe UI'
+}
+
+#header {
+    height: 67px;
+    padding: 0 26px;
+    line-height: 67px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#header .logo {
+    float: left;
+}
+
+.menu-btn {
+    display: inline-block;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 20px;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: white;
+    list-style-type: none;
+}
+
+.sub-menu li a {
+    text-decoration: none;
+    color: #585b63;
+}
+
+#header img {
+    width: 130px;
+    margin: auto 10px;
+}
+
+#nav {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li a {
+    text-decoration: none;
+    padding: 0 30px;
+    line-height: 67px;
+    display: inline-block;
+    font-size: 19px;
+    color: #585b63;
+}
+
+#nav li a:hover {
+    background-color: #f8f9fa;
+}
+
+#header .search-btn {
+    float: right;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav #nav {display: none;}
+    .topnav .menu-icon {
+        display: block;
+    }
+}
+
+#text-banner p {
+    background-color: #deeafd;
+    font-size: 14px;
+    color: #191919;
+    line-height: 64px;
+    padding: 0 24px;
+}
+
+#text-banner a {
+    display: inline-block;
+}
+
+#content {
+    height: 300px;
+}
+
+#footer {
+    color: #585b63;
+    padding: 0 26px;
+    display: flex;
+}
+
+#footer div {
+    width: 33%;
+}
+
+#footer p {
+    font-size: 19px;
+    margin: 19px 0;
+}
+
+#footer ul {
+    list-style-type: none;
+}
+
+#footer li a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    color: #585b63;
+    padding: 10px 0;
+}
+
+#footer li a:hover {
+    text-decoration: underline;
+}
