@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <nav id="sub-menu" class="hidden">
+        <nav id="sub-menu">
             <div class="close-btn">
                 <i class="close-icon ti-close"></i>
             </div>
@@ -91,12 +91,10 @@
         const submenu = document.querySelector('#sub-menu');
         const closeBtn = document.querySelector('.close-btn');
         menuBtn.onclick = function() {
-            if (submenu.className === "hidden") {
-                submenu.classList.remove("hidden");
-            }
+            submenu.style.left = 0;
         }
         closeBtn.onclick = function() {
-                submenu.classList.add("hidden");
+            submenu.style.left = "-270px";
         }
     </script>
 </body>
