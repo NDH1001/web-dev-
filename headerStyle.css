@@ -103,6 +103,8 @@
     .topnav .menu-icon {
         display: block;
     }
+    #footer {
+        flex-direction: column;
 }
 
 #text-banner p {
